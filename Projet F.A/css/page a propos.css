@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.MENU {
+    background-color: #08213e;
+    width: auto;
+    height: 80PX;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.TITRE {
+    color: white;
+}
+
+.presentateur1 {
+    padding: 10px;
+}
+
+.presentateur2 {
+    padding: 10px;
+}
+
+.LECONTEXTE {
+    padding: 5px;
+}
+
+.LEPOURQUOI {
+    padding: 5px;
+}
+
+.p7 {
+    padding-left: 10px;
+}
+
+.p8 {
+    padding-left: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texte {
+    word-spacing: 1px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+}
+
+.containerimage {
+    padding: 5px;
+}
+
+.texte {
+    padding: 5px;
+    font-size: 20px;
+}
+
+/*la responsivite c'est se qui permet le site a s'adapte au different ecrant (tablette ordis telephone...*/
+@media screen and (max-width:1010px) {
+    .texte {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .image {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:982px) {
+    .texte {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .image {
+        width: 600px;
+    }
+}
+
+
+@media screen and (max-width:746px) {
+    .texte {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .image {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .texte {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .image {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .texte {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .image {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .texte {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .image {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .texte {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .image {
+        width: 600px;
+    }
+}

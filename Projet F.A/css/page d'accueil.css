@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MENU {
+    background-color: #CE6A6B;
+    width: auto;
+    height: 80PX;
+    display: flex;
+    align-items: center;
+}
+.Apropos{
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.TITRE {
+    color: white;
+    padding-left: 5px;
+}
+
+.intro {
+    padding: 5px;
+}
+
+.lesarticlesrecents {
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.img6:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+    opacity: 80%;
+    transition: opacity 2s ease;
+}
+
+.p6 {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 900px;
+    height: 500px;
+    column-gap: 50px;
+    row-gap: 50px;
+
+}
+
+.grid_item {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Article1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.Article2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.Article3 {
+    max-width: 100%;
+    height: auto;
+}
+
+.Article4 {
+    max-width: 100%;
+    height: auto;
+}
+
+.Article5 {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid_item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px;
+    width: 300px;
+    height: 400px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titreCard {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+/* la responsivite c'est se qui permet le site a s'adapte au different ecrant (tablette ordis telephone...*/
+@media screen and (max-width:1010px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        width: 900px;
+        height: 500px;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0px;
+        width: 300px;
+        height: 300px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:982px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        width: 900px;
+        height: 500px;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0px;
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        width: 900px;
+        height: 500px;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0px;
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        width: 900px;
+        height: 500px;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0px;
+        width: 200px;
+        height: 200px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        width: 900px;
+        height: 500px;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0px;
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        width: 900px;
+        height: 500px;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0px;
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        width: 900px;
+        height: 500px;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .grid_item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0px;
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.TITRE {
+    background-color: bisque;
+    width: auto;
+    height: 80PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+    font-size: 45px;
+}
+
+.img5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.p5 {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.containerformulaire {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.labelarea {
+    padding: 5px;
+}
+
+.buttonENVOYE {
+    padding-left: 1090px;
+}
+
+@media screen and (max-width:1010px) {
+    .TITRE {
+        background-color: bisque;
+        width: auto;
+        height: 80PX;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:982px) {
+    .TITRE {
+        background-color: bisque;
+        width: auto;
+        height: 80PX;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .TITRE {
+        background-color: bisque;
+        width: auto;
+        height: 80PX;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:619px) {
+    .TITRE {
+        background-color: bisque;
+        width: auto;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:580px) {
+    .TITRE {
+        background-color: bisque;
+        width: auto;
+        height: 80PX;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .TITRE {
+        background-color: bisque;
+        width: auto;
+        height: 80PX;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .TITRE {
+        background-color: bisque;
+        width: auto;
+        height: 80PX;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
